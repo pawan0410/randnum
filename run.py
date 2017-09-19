@@ -41,7 +41,7 @@ time1 = round((73 * times)/100)
 
 for i in generate(low=low1,high=high,times=time1):
     every.append(i)
-    #print(i)
+
  #low
 #here we have generated the partition and will print 27% times the smaller numbers that div_num
 #for that we have called the generate generator which yields the smaller than the div_num values
